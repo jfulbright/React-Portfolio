@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About
+          About me
         </a>
       </li>
       <li className="nav-item">
