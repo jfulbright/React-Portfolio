@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import Form from "../components/Form/index";
 
 export default function Contact() {
   return (
@@ -7,6 +8,7 @@ export default function Contact() {
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
       </p>
+      <Form />
     </div>
   );
 }
