@@ -65,11 +65,12 @@ function Form() {
   };
 
   return (
-    <div>
+    <div className="form-content">
       <form className="form">
         <input
           value={name}
           name="name"
+          class="form-control"
           onChange={handleInputChange}
           onBlur={handleBlur}
           type="text"
@@ -78,6 +79,7 @@ function Form() {
         <input
           value={email}
           name="email"
+          class="form-control"
           onChange={handleInputChange}
           onBlur={handleBlur}
           type="email"
@@ -86,12 +88,13 @@ function Form() {
         <textarea
           value={message}
           name="message"
+          class="form-control"
           onChange={handleInputChange}
           onBlur={handleBlur}
           type="textarea"
           placeholder="Message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" className="btn-primary" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
