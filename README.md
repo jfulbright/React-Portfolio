@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My personal portfolio built using React and Bootstrap. I'm continually adding projects, modifying content, and updating the look and functionality. 
 
-## Available Scripts
+## Table of Contents 
 
-In the project directory, you can run:
+- [React Portfolio](#react-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Screenshots](#screenshots)
+  - [Usage](#usage)
+  - [Pages](#pages)
+    - [Main](#main)
+    - [Projects](#projects)
+    - [About](#about)
+    - [Resume](#resume)
+    - [Contact](#contact)
+    - [Form](#form)
+  - [License](#license)
+  - [About](#about-1)
+    - [Jeremy Fulbright](#jeremy-fulbright)
+  - [Credits](#credits)
+  - [Questions](#questions)
 
-### `npm start`
+## Prerequisites
+Below are the tools used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [React.js](https://reactjs.org/)
+* [React Bootstrap](https://react-bootstrap.github.io/)
+* [React Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To build a similar, single page portfolio or website for yourself, you'll want first create a new React app:
+```
+npx create-react-app <projectname>
+```
 
-### `npm run build`
+You can also fork and clone this repo to use as a template and then just run npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![homepage](https://user-images.githubusercontent.com/62451633/93927549-e04f2580-fccd-11ea-9afc-aa442020ecbe.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Projects](https://user-images.githubusercontent.com/62451633/93927549-e04f2580-fccd-11ea-9afc-aa442020ecbe.png)
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You'll be able to run the app locally by running npm start:
+```
+npm start
+```
+All your changes should update the local host in real time. If you want to deploy your app, you'll need to make a few changes to the package.json file. Directions below for deploying to Github Pages:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Add a homepage: <name-of-the-page-deploying-to> to your package.json in the root
+  ```
+  "homepage": "https://jfulbright.github.io/React-Portfolio/"
+  ```
+2. In the "scripts" property of your package.json, add two scripts:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Now, after you merge your changes and pull the most up-to-date master, open a new terminal and run npm run deploy:
+```
+npm run deploy
+```
+  
+1. This creates a new branch, gh-pages. Open your deploy settings in Github and change the deploy branch to gh-pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+5. Every time you want your deployed site to update with the changes you've made, you need to run npm run deploy
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Main
+  * Basic about with main navbar links and link to the full bio
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Projects
+  * Portfolio of selected projects with logo, description, technologies used, and links to the repo and live site
 
-### Analyzing the Bundle Size
+### About
+  * Bio page with more about me, my background, and favorite technologies
+  
+### Resume
+  * Link to standard resume
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Contact
+  * Email, LinkedIn, and Github
 
-### Making a Progressive Web App
+### Form
+  * Error handling
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT license.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## About
 
-### Deployment
+### [Jeremy Fulbright](https://github.com/jfulbright)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you would like to use this template for your own portfolio, please just credit me. Thank you! :)
 
-### `npm run build` fails to minify
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+N/A
+
+## Questions
+
+Questions or feedback-- we welcome them all! Feel free to reach out for any questions about the repo, open an issue or contact me and I'll get back to you soon!
