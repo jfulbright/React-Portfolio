@@ -4,7 +4,31 @@
 
 .form input {
   display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8D8D8D;
+}
+
+.form-control {
+  display: block;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 100%;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8D8D8D;
+}
+
+.btn-primary {
+  background-color: lightcoral;
+  outline: none;
+  border: 0px;
+  box-shadow: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

@@ -16,28 +16,24 @@ export default function Header() {
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           {/* Left */}
           <div className="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
+            <span>Connected with me:</span>
           </div>
           {/* Left */}
           {/* Right */}
           <div>
-            <a href="#http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("facebook")} />
+            <a href="#mailto:jfulbright@gmail.com" className="me-4 text-reset">
+              <FontAwesomeIcon icon={brands("google")} /> jfulbright@gmail.com
             </a>
-            <a href="#http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("twitter")} />
+
+            <a
+              href="https://www.linkedin.com/in/jeremyfulbright/"
+              className="me-4 text-reset"
+            >
+              <FontAwesomeIcon icon={brands("linkedin")} />{" "}
+              LinkedIn.com/jeremyfulbright
             </a>
-            <a href="#http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("google")} />
-            </a>
-            <a href="#http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("instagram")} />
-            </a>
-            <a href="#http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("linkedin")} />
-            </a>
-            <a href="http://www.inserturl.com" className="me-4 text-reset">
-              <FontAwesomeIcon icon={brands("github")} />
+            <a href="https://github.com/jfulbright" className="me-4 text-reset">
+              <FontAwesomeIcon icon={brands("github")} /> github.com/jfulbright
             </a>
           </div>
           {/* Right */}
@@ -53,65 +49,30 @@ export default function Header() {
                 {/* Content */}
                 <h6 className="text-uppercase fw-bold mb-4">
                   <i className="fas fa-gem me-3" />
-                  Company name
+                  About
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Full Stack Developer focused on the MERN stack (MongoDB,
+                  Express, React, and Node.js)
                 </p>
               </div>
               {/* Grid column */}
               {/* Grid column */}
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* Links */}
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Angular
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    React
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Vue
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Laravel
-                  </a>
-                </p>
+                <h6 className="text-uppercase fw-bold mb-4">Front-End:</h6>
+                <p>HTML, CSS, Bootstrap</p>
+                <p>JavaScript, jQuery</p>
+                <p>ReactJS, State</p>
               </div>
               {/* Grid column */}
               {/* Grid column */}
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* Links */}
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Pricing
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Settings
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Orders
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Help
-                  </a>
-                </p>
+                <h6 className="text-uppercase fw-bold mb-4">Back-end</h6>
+                <p>Node.js, Express.js</p>
+                <p>MySQL, MongoDB, GraphQL</p>
+                <p>ORM, MVC, OOP</p>
               </div>
               {/* Grid column */}
               {/* Grid column */}
@@ -119,17 +80,11 @@ export default function Header() {
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <i className="fas fa-home me-3" /> New York, NY 10012, US
+                  <i className="fas fa-home me-3" /> Denver, CO 80206, US
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3" />
-                  info@example.com
-                </p>
-                <p>
-                  <i className="fas fa-phone me-3" /> + 01 234 567 88
-                </p>
-                <p>
-                  <i className="fas fa-print me-3" /> + 01 234 567 89
+                  jfulbright@gmail.com
                 </p>
               </div>
               {/* Grid column */}
@@ -143,7 +98,7 @@ export default function Header() {
           className="text-center p-4"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
-          © 2021 Copyright:
+          © 2022 Copyright:
           <a className="text-reset fw-bold" href="http://www.insertlink.com">
             JeremyFulbright.com
           </a>
