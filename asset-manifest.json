@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.d34e300b.css",
+    "main.js": "/React-Portfolio/static/js/main.db87e041.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/JeremyHeadshot.png": "/React-Portfolio/static/media/JeremyHeadshot.e9e99a610696f2d85df8.png",
+    "static/media/Resume-Jeremy-Fulbright.pdf": "/React-Portfolio/static/media/Resume-Jeremy-Fulbright.3efebd24864c4d24d5f2.pdf",
+    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d34e300b.css.map": "/React-Portfolio/static/css/main.d34e300b.css.map",
+    "main.db87e041.js.map": "/React-Portfolio/static/js/main.db87e041.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d34e300b.css",
+    "static/js/main.db87e041.js"
+  ]
+}
