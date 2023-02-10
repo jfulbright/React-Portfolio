@@ -8,6 +8,7 @@ My personal portfolio built using React and Bootstrap. I'm continually adding pr
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Demo](#demo)
   - [Screenshots](#screenshots)
   - [Usage](#usage)
   - [Pages](#pages)
@@ -40,11 +41,14 @@ npx create-react-app <projectname>
 
 You can also fork and clone this repo to use as a template and then just run npm install
 
+## Demo
+https://jfulbright.github.io/React-Portfolio/
+
 ## Screenshots
 
-![homepage](https://user-images.githubusercontent.com/62451633/93927549-e04f2580-fccd-11ea-9afc-aa442020ecbe.png)
+![homepage](https://github.com/jfulbright/React-Portfolio/blob/main/src/assets/portfolio-home.png?raw=true)
 
-![Projects](https://user-images.githubusercontent.com/62451633/93927549-e04f2580-fccd-11ea-9afc-aa442020ecbe.png)
+![Projects](https://github.com/jfulbright/React-Portfolio/blob/main/src/assets/portfolio-projects.png?raw=true)
 
 ## Usage
 
