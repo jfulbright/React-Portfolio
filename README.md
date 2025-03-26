@@ -104,7 +104,7 @@ This project is licensed under the MIT license.
 
 ### [Jeremy Fulbright](https://github.com/jfulbright)
 
-If you would like to use this template for your own portfolio, please just credit me. Thank you! :)
+If you would like to use this template for your own portfolio, please just credit me. Thank you!
 
 ## Credits
 
